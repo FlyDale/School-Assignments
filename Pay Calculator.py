@@ -1,9 +1,15 @@
-"""Pay Calculator Script.
+"""Pay Calculation Script.
 
-Calculates total pay using hourly rate multiplied by hours worked
-Dale McPherson 5/15/2016.
+This script will calculate total pay based on 2 input variables
+Dale McPherson 5/16/2016
 """
 
-hourrate = raw_input('What do you get paid hourly?: ')
-hours = raw_input (How many hours did you work?: ')
-print 'Your pay will be: ' hourrate * hours
+hourrate = raw_input ('What do you get paid per hour? ')
+hours = raw_input ('How many hours did you work? ')
+
+# Changes the string into a floating point number.
+
+hourrate = float (hourrate)
+hours = float (hours)
+print 'Your total pay is:' 
+print hourrate * hours

@@ -1,10 +1,9 @@
-"""First Name, Last Name Script.
+"""Script First Name, Last Name.
 
-My first attempt at a Python script
-Dale McPherson 5/15/2016.
+My first attempt at Python, my first attempt at programming!
+Dale McPherson 5/16/2016
 """
 
-firstname = raw_input('Please type your first name: ')
-lastname = raw_input('please type your last name: ')
-print 'It is very nice to meet you ',firstname,lastname
-
+firstname = raw_input('Hello! What is your first name? ')
+lastname = raw_input('Okay, what is your last name? ')
+print 'Awesome! I am glad to meet you',firstname,lastname
